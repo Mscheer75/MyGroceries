@@ -28,7 +28,7 @@ int main()
   
   if(list.empty())
   {
-     cout << "there are no items on the list\n" 
+     cout << "there are no items on the list\n";
   }
   else
   {
