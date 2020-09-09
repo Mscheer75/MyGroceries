@@ -25,6 +25,15 @@ int main()
         list.push_back(item);
     }
   }while( input != 'q' && input != 'Q' );
+  
+  if(list.empty())
+  {
+     cout << "there are no items on the list\n" 
+  }
+  else
+  {
+    cout << "Items in cart: " << list.size() << endl;
+  }
     
   return 0;
 }
